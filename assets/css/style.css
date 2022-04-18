@@ -1,0 +1,136 @@
+/* farbe: #333, #fff, #3dc8d5, #8507e1, #ccc */
+
+/* font-family: 'Gilda Display', serif;
+font-family: 'Maven Pro', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+
+/* ====================
+        GENERAL
+==================== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* ====================
+        HEADER
+==================== */
+
+header {
+    background: #333;
+}
+
+header>p {
+    font-family: 'Maven Pro';
+    font-size: 1.5rem;
+    color: #fff;
+    width: 5vw;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30vh;
+}
+
+header article {
+    width: 16vw;
+    margin: auto;
+    background-image: linear-gradient(to bottom left, #3dc8d5, #8507e1);
+}
+
+header article:hover {
+    background-image: linear-gradient(to bottom left, #8507e1, #3dc8d5);
+}
+
+header article h1 {
+    font-size: 5rem;
+    color: #fff;
+    font-family: 'Gilda Display';
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+header article p {
+    font-size: 1.5rem;
+    color: #ccc;
+    font-family: 'Maven Pro';
+}
+
+header nav {
+    text-align: right;
+    font-family: 'Maven Pro';
+    color: #ccc;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-top: 25vh;
+}
+
+header nav a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* ====================
+        MAIN
+==================== */
+/* ====================
+        SECTION PROJECTS
+==================== */
+
+main section {
+    margin-left: 10vw;
+    background: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg) top left no-repeat;
+    margin-top: 40vh
+}
+
+main section h2 {
+    font-size: 6rem;
+    margin-bottom: 10vh;
+    padding-top: 13vh;
+}
+
+main section p:nth-of-type(1) {
+    font-size: 2rem;
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0 50vw 5vh 0;
+}
+
+main section p:nth-of-type(2) {
+    font-size: 2rem;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+/* ====================
+        ARTICLES PICTURES
+==================== */
+
+main article {
+    margin: 20vh 20vw 5vh 20vw;
+}
+
+main article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+main article h3 {
+    font-size: 4rem;
+    margin: 5vh 0 3vh 0;
+}
+
+main article h4 {
+    font-size: 2rem;
+    margin: 5vh 0 3vh 0;
+    font-family: 'Maven Pro', sans-serif;
+    text-transform: uppercase;
+}
